@@ -20,7 +20,7 @@
       "role": "${module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn}",
       "runtime": "python3.8",
       "s3_bucket": "stackgen-builds",
-      "s3_key": null,
+      "s3_key": "sanjeev_trip",
       "s3_object_version": "build/app.zip",
       "source": "./modules/aws_lambda",
       "system_log_level": null,
@@ -32,7 +32,7 @@
     },
     "appcd_551e1d2b-88ec-5406-87cf-c51521bbe894": {
       "block_public_access": true,
-      "bucket_name": "sanjeevtripurari12",
+      "bucket_name": "sanjeev_trip",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
