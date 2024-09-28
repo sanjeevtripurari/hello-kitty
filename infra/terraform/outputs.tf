@@ -47,12 +47,6 @@ output "aws_lambda_hello_kitty_function_sanjeevt_invoke_arn" {
 }
 
 
-output "aws_s3_sanjeev_trip_kms_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
-  sensitive = false
-}
-
-
 output "aws_s3_sanjeev_trip_arn" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
   sensitive = false
@@ -67,5 +61,11 @@ output "aws_s3_sanjeev_trip_bucket_name" {
 
 output "aws_s3_sanjeev_trip_bucket_website_endpoint" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
+  sensitive = false
+}
+
+
+output "aws_s3_sanjeev_trip_kms_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
   sensitive = false
 }

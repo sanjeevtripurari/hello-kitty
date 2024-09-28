@@ -7,7 +7,7 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "hello-kitty-function-sanjeevt": "sanjeevtripurari"
+        "sanjeev_trip": "sanjeev_trip"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
