@@ -1,4 +1,28 @@
 
+output "aws_s3_sanjeev12thnov_kms_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
+  sensitive = false
+}
+
+
+output "aws_s3_sanjeev12thnov_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
+  sensitive = false
+}
+
+
+output "aws_s3_sanjeev12thnov_bucket_name" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
+  sensitive = false
+}
+
+
+output "aws_s3_sanjeev12thnov_bucket_website_endpoint" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
+  sensitive = false
+}
+
+
 output "aws_iam_role_hello_kitty_role_sanjeevtripurari_arn" {
   value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn
   sensitive = false
@@ -43,29 +67,5 @@ output "aws_lambda_hello_kitty_function_sanjeevt_function_url" {
 
 output "aws_lambda_hello_kitty_function_sanjeevt_invoke_arn" {
   value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.invoke_arn
-  sensitive = false
-}
-
-
-output "aws_s3_sanjeev_trip_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
-  sensitive = false
-}
-
-
-output "aws_s3_sanjeev_trip_bucket_name" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
-  sensitive = false
-}
-
-
-output "aws_s3_sanjeev_trip_bucket_website_endpoint" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
-  sensitive = false
-}
-
-
-output "aws_s3_sanjeev_trip_kms_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
   sensitive = false
 }
